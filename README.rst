@@ -58,3 +58,6 @@ Don't forget to
 
 Update the version number of reginald in
 ``Contents/Resources/Description.plist``
+
+Update the binary installer of Python needed in
+``Contents/Resources/ReadMe.txt``
