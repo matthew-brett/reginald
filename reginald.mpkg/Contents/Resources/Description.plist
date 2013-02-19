@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IFPkgDescriptionDescription</key>
+	<string>Reginald: a bulging groaning heap of scientific python packages based on the scipy stack</string>
+	<key>IFPkgDescriptionTitle</key>
+	<string>Reginald 1.7.0</string>
+	<key>IFPkgDescriptionVersion</key>
+	<string>1.7</string>
+</dict>
+</plist>
