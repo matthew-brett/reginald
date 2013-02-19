@@ -1,2 +1,6 @@
 reginald.mpkg/Contents/Packages/*
 reginald.mpkg/Contents/Info.plist
+build/
+dist/
+dmg/reginald.mpkg/
+dmg/ReadMe.txt
