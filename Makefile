@@ -4,11 +4,16 @@ finally:
 	sudo reown_mpkg reginald.mpkg root admin
 	./rewrite_plist.py reginald.mpkg
 
-clean:
+distclean:
 	git clean -fxd
+
+clean:
+	rm -rf dmg/* dist/*
 
 dmg:
 	-mkdir dist
-	cp -r reginald.mpkg dmg
+	-mkdir dmg
+	cp -R reginald.mpkg dmg/
 	cp reginald.mpkg/Contents/Resources/ReadMe.txt dmg
+	cp reginald.mpkg/Contents/Resources/License.txt dmg
 	hdiutil create ./dist/reginald.dmg -volname Reginald -srcfolder ./dmg/ -ov
